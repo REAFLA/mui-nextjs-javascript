@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "checkJs": true,
+    "jsx": "react",
+    "paths": {
+      "@/components/*": ["src/components/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/config/*": ["src/config/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/store/*": ["src/store/*"],
+      "@/utlis/*": ["src/utlis/*"]
+    }
+  }
+}

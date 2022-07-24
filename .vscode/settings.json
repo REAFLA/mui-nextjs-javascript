@@ -1,0 +1,4 @@
+{
+  // VSCODE Extension Intellisense이 설치되어 있는 경우 자바스크립트 파일에서 타입스크립트 문법 오류가 발생됨으로 아래와 같이 자바스크립트 체크를 꺼준다.
+  "javascript.validate.enable": false
+}
