@@ -54,7 +54,7 @@
     "react/jsx-uses-vars": "error",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": [
-      1,
+      "off",
       {
         "custom": "ignore"
       }
