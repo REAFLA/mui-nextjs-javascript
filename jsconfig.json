@@ -10,7 +10,7 @@
       "@/config/*": ["src/config/*"],
       "@/styles/*": ["src/styles/*"],
       "@/store/*": ["src/store/*"],
-      "@/utlis/*": ["src/utlis/*"]
+      "@/utils/*": ["src/utils/*"]
     }
   }
 }

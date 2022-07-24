@@ -49,7 +49,7 @@
     "react/jsx-boolean-value": "warn",
     "react/jsx-curly-brace-presence": "warn",
     "react/jsx-fragments": "warn",
-    "react/jsx-no-useless-fragment": "warn",
+    "react/jsx-no-useless-fragment": "off",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/jsx-one-expression-per-line": "off",
@@ -57,6 +57,21 @@
       1,
       {
         "custom": "ignore"
+      }
+    ],
+    // JSX-A11Y
+    "jsx-a11y/anchor-is-valid": [
+      "off",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["noHref", "invalidHref", "preferButton"]
+      }
+    ],
+    "jsx-a11y/no-autofocus": [
+      "off",
+      {
+        "ignoreNonDOM": true
       }
     ],
     // Import
